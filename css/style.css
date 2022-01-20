@@ -90,9 +90,17 @@ h1{
     transform: scale(1.1); 
   }
 
+#desktop {display: block;}
+#mobile {display: none;}
 
+@media screen and (max-width: 768px) {
 
-  @media screen and (max-width: 414px) {
+#desktop {display: none;}
+#mobile {display: block;}
+
+}
+
+  /*@media screen and (max-width: 414px) {
 
     frontname {
         font-weight: 300;
@@ -117,4 +125,4 @@ h1{
     }
     
     
-  }
+  }*/
